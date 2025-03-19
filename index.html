@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Candidat Apprenti</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet"/>
+    <style>
+        :where([class^="ri-"])::before { content: "\f3c2"; }
+        body { font-family: 'Poppins', sans-serif; }
+    </style>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#2B3A67',
+                        secondary: '#E8EBF4'
+                    },
+                    borderRadius: {
+                        'none': '0px',
+                        'sm': '4px',
+                        DEFAULT: '8px',
+                        'md': '12px',
+                        'lg': '16px',
+                        'xl': '20px',
+                        '2xl': '24px',
+                        '3xl': '32px',
+                        'full': '9999px',
+                        'button': '8px'
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-white">
+    <nav class="fixed top-0 left-0 right-0 bg-white shadow-sm z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    <h1 class="text-xl font-medium text-primary">Rayan Fuchs</h1>
+                </div>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#about" class="text-gray-700 hover:text-primary">À propos</a>
+                    <a href="#skills" class="text-gray-700 hover:text-primary">Compétences</a>
+                    <a href="#strengths" class="text-gray-700 hover:text-primary">Points forts</a>
+                    <a href="#education" class="text-gray-700 hover:text-primary">Formation</a>
+                    <a href="#documents" class="text-gray-700 hover:text-primary">Documents</a>
+                    <a href="#experience" class="text-gray-700 hover:text-primary">Expérience</a>
+                    <a href="#contact" class="text-gray-700 hover:text-primary">Contact</a>
+                    <a href="CV_Rayan_Fuchs.pdf" download class="bg-primary text-white px-4 py-2 !rounded-button hover:bg-opacity-90 transition-all cursor-pointer whitespace-nowrap inline-block">
+                        <span class="flex items-center justify-center">
+                            <i class="ri-download-line mr-2"></i> Télécharger CV
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <main class="pt-16">
+        <section id="hero" class="relative bg-secondary py-20">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="flex flex-col md:flex-row items-center gap-12">
+                    <div class="flex-1">
+                        <h1 class="text-4xl font-bold text-primary mb-4">
+                            Candidat pour l'apprentissage en gestion administrative
+                        </h1>
+                        <p class="text-lg text-gray-600 mb-8">
+                            Salut ! Je m'appelle Rayan et je suis passionné par l'organisation et les relations humaines. Je recherche une opportunité d'apprentissage pour la rentrée 2025 pour mettre en pratique ma motivation et mon énergie.
+                        </p>
+                        <div class="flex gap-4">
+                            <a href="#contact" class="bg-primary text-white px-6 py-3 !rounded-button hover:bg-opacity-90 transition-all cursor-pointer whitespace-nowrap inline-block text-center">
+                                Me contacter
+                            </a>
+                            <a href="#about" class="border-2 border-primary text-primary px-6 py-3 !rounded-button hover:bg-primary hover:text-white transition-all cursor-pointer whitespace-nowrap inline-block text-center">
+                                En savoir plus
+                            </a>
+                        </div>
+                    </div>
+                    <div class="flex-1">
+                        <img src="FUCHS--MOUHSSINE_Rayan.jpg" 
+                             alt="Photo professionnelle de Rayan Fuchs"
+                             class="rounded-full w-80 h-80 object-cover mx-auto shadow-lg"/>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="py-20">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 class="text-3xl font-bold text-primary mb-12 text-center">À propos de moi</h2>
+                <div class="grid md:grid-cols-2 gap-12">
+                    <div class="bg-white p-8 rounded-lg shadow-lg">
+                        <h3 class="text-xl font-semibold mb-4">Qui suis-je ?</h3>
+                        <p class="text-gray-600 leading-relaxed">
+                            J'ai 15 ans et je suis en Seconde Générale et Technologique au Lycée de Ferney-Voltaire. Ce qui me définit ? Mon côté sociable et ma facilité à m'adapter à différentes situations. Grâce à mon expérience en théâtre, j'ai développé une vraie aisance à l'oral. J'ai une passion pour le développement web et j'ai des bases en HTML qui me permettent de comprendre comment fonctionne un site web. Je suis actuellement en train d'apprendre à utiliser les outils bureautiques comme Pack Office et Google Workspace. Ce que j'aime par-dessus tout, c'est travailler avec les autres et relever des défis. Mon objectif ? Intégrer une formation en alternance dans le domaine administratif pour développer mes compétences et mettre en pratique mon sens de l'organisation et ma rigueur.
+                        </p>
+                    </div>
+                    <div class="bg-white p-8 rounded-lg shadow-lg">
+                        <h3 class="text-xl font-semibold mb-4">Ma motivation</h3>
+                        <p class="text-gray-600 leading-relaxed">
+                            Pourquoi le secteur du placement de personnel ? Parce que j'adore le contact humain et que ce domaine mêle parfaitement relations interpersonnelles et travail administratif. Durant mon stage à la RTS, j'ai découvert à quel point j'appréciais la diversité des tâches et le travail en équipe. Je suis convaincu que ma polyvalence, mon énergie et ma capacité d'écoute seraient de vrais atouts pour votre entreprise. Ce que je recherche ? Un environnement dynamique où je pourrai apprendre et évoluer !
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="py-20 bg-secondary">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 class="text-3xl font-bold text-primary mb-12 text-center">Compétences</h2>
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div class="bg-white p-8 rounded-lg shadow-lg">
+                        <h3 class="text-xl font-semibold mb-6">Compétences techniques</h3>
+                        <div class="space-y-4">
+                            <div>
+                                <div class="flex justify-between mb-1">
+                                    <span class="text-gray-700">Pack Office</span>
+                                    <span class="text-primary">60%</span>
+                                </div>
+                                <div class="w-full bg-gray-200 rounded-full h-2">
+                                    <div class="bg-primary rounded-full h-2" style="width: 60%"></div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="flex justify-between mb-1">
+                                    <span class="text-gray-700">HTML</span>
+                                    <span class="text-primary">75%</span>
+                                </div>
+                                <div class="w-full bg-gray-200 rounded-full h-2">
+                                    <div class="bg-primary rounded-full h-2" style="width: 75%"></div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="flex justify-between mb-1">
+                                    <span class="text-gray-700">Google Workspace</span>
+                                    <span class="text-primary">45%</span>
+                                </div>
+                                <div class="w-full bg-gray-200 rounded-full h-2">
+                                    <div class="bg-primary rounded-full h-2" style="width: 45%"></div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="flex justify-between mb-1">
+                                    <span class="text-gray-700">Communication</span>
+                                    <span class="text-primary">95%</span>
+                                </div>
+                                <div class="w-full bg-gray-200 rounded-full h-2">
+                                    <div class="bg-primary rounded-full h-2" style="width: 95%"></div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="flex justify-between mb-1">
+                                    <span class="text-gray-700">Travail en équipe</span>
+                                    <span class="text-primary">90%</span>
+                                </div>
+                                <div class="w-full bg-gray-200 rounded-full h-2">
+                                    <div class="bg-primary rounded-full h-2" style="width: 90%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-white p-8 rounded-lg shadow-lg">
+                        <h3 class="text-xl font-semibold mb-6">Compétences linguistiques</h3>
+                        <div class="space-y-4">
+                            <div>
+                                <div class="flex justify-between mb-1">
+                                    <span class="text-gray-700">Français</span>
+                                    <span class="text-primary">Langue maternelle</span>
+                                </div>
+                                <div class="w-full bg-gray-200 rounded-full h-2">
+                                    <div class="bg-primary rounded-full h-2" style="width: 100%"></div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="flex justify-between mb-1">
+                                    <span class="text-gray-700">Anglais</span>
+                                    <span class="text-primary">B2</span>
+                                </div>
+                                <div class="w-full bg-gray-200 rounded-full h-2">
+                                    <div class="bg-primary rounded-full h-2" style="width: 75%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="strengths" class="py-16 bg-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 class="text-3xl font-bold text-primary mb-12 text-center">Mes points forts</h2>
+                <div class="flex flex-wrap justify-center gap-4">
+                    <div class="bg-primary text-white px-6 py-3 rounded-full font-medium shadow-lg transform transition-transform hover:scale-105">
+                        <span class="flex items-center"><i class="ri-user-smile-line mr-2"></i> Super contact humain</span>
+                    </div>
+                    <div class="bg-primary text-white px-6 py-3 rounded-full font-medium shadow-lg transform transition-transform hover:scale-105">
+                        <span class="flex items-center"><i class="ri-team-line mr-2"></i> Esprit d'équipe</span>
+                    </div>
+                    <div class="bg-primary text-white px-6 py-3 rounded-full font-medium shadow-lg transform transition-transform hover:scale-105">
+                        <span class="flex items-center"><i class="ri-speak-line mr-2"></i> Aisance à l'oral</span>
+                    </div>
+                    <div class="bg-primary text-white px-6 py-3 rounded-full font-medium shadow-lg transform transition-transform hover:scale-105">
+                        <span class="flex items-center"><i class="ri-code-line mr-2"></i> Bases en HTML</span>
+                    </div>
+                    <div class="bg-primary text-white px-6 py-3 rounded-full font-medium shadow-lg transform transition-transform hover:scale-105">
+                        <span class="flex items-center"><i class="ri-tools-line mr-2"></i> Polyvalent</span>
+                    </div>
+                    <div class="bg-primary text-white px-6 py-3 rounded-full font-medium shadow-lg transform transition-transform hover:scale-105">
+                        <span class="flex items-center"><i class="ri-calendar-check-line mr-2"></i> Organisé</span>
+                    </div>
+                    <div class="bg-primary text-white px-6 py-3 rounded-full font-medium shadow-lg transform transition-transform hover:scale-105">
+                        <span class="flex items-center"><i class="ri-rocket-line mr-2"></i> Motivé</span>
+                    </div>
+                </div>
+                <div class="mt-12 text-center">
+                    <p class="text-lg text-gray-600 max-w-3xl mx-auto">
+                        Ces qualités, je les ai développées à travers mes expériences personnelles et scolaires. 
+                        Elles font aujourd'hui partie de ma personnalité et sont mes meilleurs atouts pour réussir dans le monde professionnel !
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-16 bg-secondary">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center">
+                    <blockquote class="text-2xl italic font-medium text-gray-700 max-w-3xl mx-auto">
+                        <span class="text-5xl text-primary">"</span>
+                        Ce qui me motive chaque jour ? Apprendre de nouvelles choses et relever des défis. J'ai hâte de pouvoir apporter mon énergie à votre équipe !
+                        <span class="text-5xl text-primary">"</span>
+                    </blockquote>
+                    <p class="mt-4 text-lg font-semibold text-primary">- Rayan Fuchs</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="education" class="py-20">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 class="text-3xl font-bold text-primary mb-12 text-center">Formation</h2>
+                <div class="space-y-8">
+                    <div class="bg-white p-8 rounded-lg shadow-lg">
+                        <div class="flex items-center gap-4 mb-4">
+                            <div class="w-12 h-12 bg-primary rounded-full flex items-center justify-center">
+                                <i class="ri-graduation-cap-line text-white text-xl"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-semibold">Seconde Générale et Technologique</h3>
+                                <p class="text-gray-600">Lycée de Ferney-Voltaire | En cours</p>
+                            </div>
+                        </div>
+                        <p class="text-gray-600 mb-4">
+                            Ma formation actuelle me permet d'explorer différentes possibilités tout en développant une solide culture générale. J'y apprends la rigueur, l'organisation et la gestion du temps - des compétences essentielles pour mon futur apprentissage !
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="documents" class="py-20">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 class="text-3xl font-bold text-primary mb-12 text-center">Documents</h2>
+                <div class="space-y-8">
+                    <div class="bg-white p-8 rounded-lg shadow-lg">
+                        <h3 class="text-xl font-semibold mb-6">Mes bulletins scolaires</h3>
+                        <div class="grid md:grid-cols-2 gap-6">
+                            <div class="bg-secondary p-6 rounded-lg">
+                                <div class="flex items-center gap-4 mb-4">
+                                    <div class="w-12 h-12 bg-primary rounded-full flex items-center justify-center">
+                                        <i class="ri-file-text-line text-white text-xl"></i>
+                                    </div>
+                                    <div>
+                                        <h4 class="font-semibold">Bilan de cycle</h4>
+                                        <p class="text-gray-600 text-sm">2023-2024 | Cycle 4</p>
+                                    </div>
+                                </div>
+                                <p class="text-gray-600 mb-4 text-sm">Bilan complet du cycle 4 avec l'ensemble des résultats et appréciations.</p>
+                                <a href="bilan-cycle-FUCHS--MOUHSSINE-Rayan-2023-2024-Cycle-4.pdf" target="_blank" class="bg-primary text-white px-4 py-2 !rounded-button hover:bg-opacity-90 transition-all cursor-pointer whitespace-nowrap inline-block text-center w-full">
+                                    <span class="flex items-center justify-center">
+                                        <i class="ri-download-line mr-2"></i> Télécharger
+                                    </span>
+                                </a>
+                            </div>
+                            
+                            <div class="bg-secondary p-6 rounded-lg">
+                                <div class="flex items-center gap-4 mb-4">
+                                    <div class="w-12 h-12 bg-primary rounded-full flex items-center justify-center">
+                                        <i class="ri-file-text-line text-white text-xl"></i>
+                                    </div>
+                                    <div>
+                                        <h4 class="font-semibold">Bulletin du 1er trimestre</h4>
+                                        <p class="text-gray-600 text-sm">2023-2024 | T1</p>
+                                    </div>
+                                </div>
+                                <p class="text-gray-600 mb-4 text-sm">Résultats et appréciations du premier trimestre de l'année scolaire.</p>
+                                <a href="bilan-periodique-FUCHS--MOUHSSINE-Rayan-2023-2024-T1.pdf" target="_blank" class="bg-primary text-white px-4 py-2 !rounded-button hover:bg-opacity-90 transition-all cursor-pointer whitespace-nowrap inline-block text-center w-full">
+                                    <span class="flex items-center justify-center">
+                                        <i class="ri-download-line mr-2"></i> Télécharger
+                                    </span>
+                                </a>
+                            </div>
+                            
+                            <div class="bg-secondary p-6 rounded-lg">
+                                <div class="flex items-center gap-4 mb-4">
+                                    <div class="w-12 h-12 bg-primary rounded-full flex items-center justify-center">
+                                        <i class="ri-file-text-line text-white text-xl"></i>
+                                    </div>
+                                    <div>
+                                        <h4 class="font-semibold">Bulletin du 2ème trimestre</h4>
+                                        <p class="text-gray-600 text-sm">2023-2024 | T2</p>
+                                    </div>
+                                </div>
+                                <p class="text-gray-600 mb-4 text-sm">Résultats et appréciations du deuxième trimestre de l'année scolaire.</p>
+                                <a href="bilan-periodique-FUCHS--MOUHSSINE-Rayan-2023-2024-T2.pdf" target="_blank" class="bg-primary text-white px-4 py-2 !rounded-button hover:bg-opacity-90 transition-all cursor-pointer whitespace-nowrap inline-block text-center w-full">
+                                    <span class="flex items-center justify-center">
+                                        <i class="ri-download-line mr-2"></i> Télécharger
+                                    </span>
+                                </a>
+                            </div>
+                            
+                            <div class="bg-secondary p-6 rounded-lg">
+                                <div class="flex items-center gap-4 mb-4">
+                                    <div class="w-12 h-12 bg-primary rounded-full flex items-center justify-center">
+                                        <i class="ri-file-text-line text-white text-xl"></i>
+                                    </div>
+                                    <div>
+                                        <h4 class="font-semibold">Bulletin du 3ème trimestre</h4>
+                                        <p class="text-gray-600 text-sm">2023-2024 | T3</p>
+                                    </div>
+                                </div>
+                                <p class="text-gray-600 mb-4 text-sm">Résultats et appréciations du troisième trimestre de l'année scolaire.</p>
+                                <a href="bilan-periodique-FUCHS--MOUHSSINE-Rayan-2023-2024-T3.pdf" target="_blank" class="bg-primary text-white px-4 py-2 !rounded-button hover:bg-opacity-90 transition-all cursor-pointer whitespace-nowrap inline-block text-center w-full">
+                                    <span class="flex items-center justify-center">
+                                        <i class="ri-download-line mr-2"></i> Télécharger
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="py-20 bg-secondary">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 class="text-3xl font-bold text-primary mb-12 text-center">Expérience</h2>
+                <div class="space-y-8">
+                    <div class="bg-white p-8 rounded-lg shadow-lg">
+                        <div class="flex items-center gap-4 mb-4">
+                            <div class="w-12 h-12 bg-primary rounded-full flex items-center justify-center">
+                                <i class="ri-tv-line text-white text-xl"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-semibold">Stage d'observation</h3>
+                                <p class="text-gray-600">RTS (Radio Télévision Suisse) - Support Production | Février 2024</p>
+                            </div>
+                        </div>
+                        <ul class="list-disc list-inside text-gray-600 space-y-2">
+                            <li>Découverte des coulisses de la production TV et radio - un univers passionnant !</li>
+                            <li>Participation active à la préparation des émissions avec l'équipe technique</li>
+                            <li>Observation de la coordination entre les différents services - une vraie ruche !</li>
+                            <li>Implication dans les réunions d'équipe où j'ai pu partager mes idées</li>
+                        </ul>
+                    </div>
+                    <div class="bg-white p-8 rounded-lg shadow-lg">
+                        <div class="flex items-center gap-4 mb-4">
+                            <div class="w-12 h-12 bg-primary rounded-full flex items-center justify-center">
+                                <i class="ri-theatre-line text-white text-xl"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-xl font-semibold">Théâtre en anglais</h3>
+                                <p class="text-gray-600">Cours de théâtre | 2 ans</p>
+                            </div>
+                        </div>
+                        <ul class="list-disc list-inside text-gray-600 space-y-2">
+                            <li>Développement de ma confiance en moi face à un public (plus de trac maintenant !)</li>
+                            <li>Apprentissage du travail en groupe et de l'importance de l'écoute mutuelle</li>
+                            <li>Perfectionnement de mon niveau d'anglais par la pratique intensive</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="py-20">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h2 class="text-3xl font-bold text-primary mb-12 text-center">Contact</h2>
+                <div class="bg-white p-8 rounded-lg shadow-lg mx-auto max-w-xl">
+                    <h3 class="text-xl font-semibold mb-6">Mes coordonnées</h3>
+                    <div class="space-y-4">
+                        <div class="flex items-center gap-4">
+                            <div class="w-10 h-10 bg-primary rounded-full flex items-center justify-center">
+                                <i class="ri-phone-line text-white"></i>
+                            </div>
+                            <p class="text-gray-600">+41 76 200 51 93</p>
+                        </div>
+                        <div class="flex items-center gap-4">
+                            <div class="w-10 h-10 bg-primary rounded-full flex items-center justify-center">
+                                <i class="ri-mail-line text-white"></i>
+                            </div>
+                            <p class="text-gray-600">rayan@fuchs-gva.ch</p>
+                        </div>
+                        <div class="flex items-center gap-4">
+                            <div class="w-10 h-10 bg-primary rounded-full flex items-center justify-center">
+                                <i class="ri-map-pin-line text-white"></i>
+                            </div>
+                            <p class="text-gray-600">Ferney-Voltaire, France</p>
+                        </div>
+                        <div class="flex items-center gap-4">
+                            <div class="w-10 h-10 bg-primary rounded-full flex items-center justify-center">
+                                <i class="ri-global-line text-white"></i>
+                            </div>
+                            <p class="text-gray-600">
+                                <span>www.github.com/votre-nom-utilisateur/cv-rayan</span>
+                                <span class="text-xs ml-2">(à mettre à jour avec votre lien GitHub)</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-primary text-white py-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center">
+                <p>&copy; 2025 Rayan Fuchs. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
